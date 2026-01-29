@@ -2,7 +2,7 @@
 #include "cordic.h"
 
 // Fixed-point format: Q3.28, 1 sign bit, 3 integer bits, 28 fraction bits
-// Values are generated using MATLAB with Fixed-Point Designer Toolbox
+// Hex values are generated using MATLAB with Fixed-Point Designer Toolbox
 static const int32_t atan_lut[] = {0x0c90fdaa, 0x076b19c1, 0x03eb6ebf, 0x01fd5ba9, 0x00ffaadd, 0x007ff556, 0x003ffeaa, 0x001fffd5, 0x000ffffa, 0x0007ffff, 0x0003ffff, 0x0001ffff, 0x0000ffff, 0x00007fff, 0x00003fff, 0x00001fff};
 
 /*
