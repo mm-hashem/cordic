@@ -13,7 +13,7 @@
 .align 2
 atan: .word 0x0c90fdaa, 0x076b19c1, 0x03eb6ebf, 0x01fd5ba9, 0x00ffaadd, 0x007ff556, 0x003ffeaa, 0x001fffd5, 0x000ffffa, 0x0007ffff, 0x0003ffff, 0x0001ffff, 0x0000ffff, 0x00007fff, 0x00003fff, 0x00001fff
 
-.global main
+.globl main
 .text
     # a0 input angle & angle accumulator
     # t0 loading variable & cos old value
